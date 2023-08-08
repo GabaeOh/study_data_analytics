@@ -1,5 +1,5 @@
 <details >
-<summary>Titanic From Disater</summary>
+<summary>Titanic From Disater_타이타닉 참사</summary>
 
 ### DDA 분석
 | Variable | Definition | Key | 분석가 의견 |
@@ -21,7 +21,7 @@
 
 
 <details >
-<summary>Type Of Contract Channel</summary>
+<summary>Type Of Contract Channel_계약 유형 채널</summary>
 
 ### DDA 분석
 | Variable          |Definition                                             | Key   | 분석가 의견 |
