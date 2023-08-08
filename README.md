@@ -22,6 +22,7 @@
 
 <details >
 <summary>Type Of Contract Channel_계약 유형 채널</summary>
+from dataset : https://blog.naver.com/data_station/222493245799
 
 ### DDA 분석
 | Variable          |Definition                                             | Key   | 분석가 의견 |
