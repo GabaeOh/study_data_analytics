@@ -26,7 +26,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 ### DDA 분석
 | Variable |Definition | Key | 데이터 분류 | 분석가 의견 |
-|---|---|---|---|
+|---|---|---|---|---|
 | id | 각 레코드의 고유 식별자 | 범주형 |  | unique id의 경우 데이터로 사용 불가 판단  |
 | type_of_contract  | 계약 유형    | 렌탈, 멤버십 | 범주형(명목형) | 각 계약 유형사이의 순서의 정보가 없음으로 명목형 |
 | type_of_contract2 | 다른 유형의 계약 |       |범주형(명목형) | 명확한 순서가 나타나있지 않기때문에 명목형|
