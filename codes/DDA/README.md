@@ -1,3 +1,10 @@
+## 묘사 데이터 분석(DDA, Descriptive Data Analysis)
+- 데이터 기본정보 파악 : 데이터 구조 및 특성 확인 
+- 분석 계획 수립 : 분석 목적. 과제 정의, 목표 변수 및 설명변수 정의 
+- 데이터 전처리 : 결측치, 이상치 등 처리 
+
+### 데이터 구조 및 형태에 따른 처리 방식 
+
 <details >
 <summary>수술 재발_Recurrence Of Surgery_DDA</summary>
 
