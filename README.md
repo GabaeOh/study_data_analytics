@@ -48,6 +48,19 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 </details>
 
-## 
-| Variable |Definition | Key | 데이터 분류   | 분석가 의견 |
-|---|---|---|---|---|
+## 셀레니움(Sellenium)
+| 제목 | 작성소스 | 설명 | 비고 |
+|---|---|---|---|
+| 기본 정보 | [begginers](./codes/gatheringdatas/seleriums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
+| find| [find](./codes/gatheringdatas/seleriums/emartmalls_find.ipynb) | find, bundle lish  with for문 | |
+| Login| [Login](./codes/gatheringdatas/seleriums/github_events_except.ipynb) | 로그인  | |
+| pagination| [pagination](./codes/gatheringdatas/seleriums/emartmalls_find_pagination.ipynb) | pagination  | |
+| 앱 리뷰 | [googlestore_healthcare](./codes/gatheringdatas/seleriums/googlestore_healthcare_single.ipynb) | single  | |
+| 앱 리뷰 | [loops](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops.ipynb) | single  | |
+
+### 셀레니움(Sellenium) QUEST 
+| 제목 | 작성소스 | 설명 | 비고 |
+|---|---|---|---|
+| books_quest | [books_quest](./codes/gatheringdatas/seleriums/books_quest.ipynb) | 도서목록 제목만 스크래핑, csv로 저장  | |
+| login_quest | [login_quest](./codes/gatheringdatas/seleriums/naver_login_quest.ipynb) | naver.com login, login 후 메일로 이동
+  | |
