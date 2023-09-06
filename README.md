@@ -47,3 +47,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 
 </details>
+
+## 
+| Variable |Definition | Key | 데이터 분류   | 분석가 의견 |
+|---|---|---|---|---|
