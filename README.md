@@ -56,7 +56,8 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | Login| [Login](./codes/gatheringdatas/seleriums/github_events_except.ipynb) | 로그인  | |
 | pagination| [pagination](./codes/gatheringdatas/seleriums/emartmalls_find_pagination.ipynb) | pagination  | |
 | 앱 리뷰 | [googlestore_healthcare](./codes/gatheringdatas/seleriums/googlestore_healthcare_single.ipynb) | single  | |
-| 앱 리뷰 | [loops](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops.ipynb) | single  | |
+| 앱 리뷰 | [loops](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops.ipynb) | loops  | |
+| 앱 리뷰 | [loops_complete](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops_complete.ipynb) | loops with for 문 | |
 
 ### 셀레니움(Sellenium) QUEST 
 | 제목 | 작성소스 | 설명 | 비고 |
