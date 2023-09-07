@@ -64,6 +64,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 |---|---|---|---|
 | books_quest | [books_quest](./codes/gatheringdatas/seleriums/books_quest.ipynb) | 도서목록 제목만 스크래핑, csv로 저장  | |
 | login_quest | [login_quest](./codes/gatheringdatas/seleriums/naver_login_quest.ipynb) | naver.com login, login 후 메일로 이동| |
+| 스크롤랑 | [koreanz_xyz_quest](./codes/gatheringdatas/seleriums/koreanz_xyz_quest.ipynb) | 특정 페이지 1page ~ 10page까지 정보 수집| |
 
 ### 정규표현식 (Regex) 
 | 제목 | 작성소스 | 설명 | 비고 |
