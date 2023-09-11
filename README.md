@@ -58,6 +58,10 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | 앱 리뷰(single) | [googlestore_healthcare](./codes/gatheringdatas/seleriums/googlestore_healthcare_single.ipynb) | single  | |
 | 앱 리뷰(loops) | [loops](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops.ipynb) | loops  | |
 | 앱 리뷰 스크롤링| [loops_complete](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops_complete.ipynb) | loops with for 문 | 각 제품(앱)에 들어가서 리뷰를 스크롤링 |
+| pagedown| [pagedown](./codes/gatheringdatas/seleriums/begginers_pagedown.ipynb) | 마우스 스크롤 기능 구현 |  |
+| 스크룰링| [pagedown_스크룰링](./codes/gatheringdatas/seleriums/begginers_ready.ipynb) | 마우스 스크롤 기능 구현 | while문을 이용 |
+| wrtnai| [wrtnai_interactive](./codes/gatheringdatas/seleriums/wrtnai_interactive.ipynb) | wrtnai ask and then answer |   |
+
 
 ### 셀레니움(Sellenium) QUEST 
 | 제목 | 작성소스 | 설명 | 비고 |
@@ -70,3 +74,11 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | 제목 | 작성소스 | 설명 | 비고 |
 |---|---|---|---|
 | Regex | [Regex](./codes/pandass/beginners.ipynb) | 정규표현식 예시 | |
+
+
+### 자연어 처리
+| 제목 | 작성소스 | 설명 | 비고 |
+|---|---|---|---|
+| wordcloud | [wordcloud](./codes/NLP/wordcloud_simple.ipynb) | 기본 자연어 처리 | | 
+| wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_simple_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
+| wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_simple_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
