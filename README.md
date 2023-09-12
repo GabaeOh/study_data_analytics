@@ -89,3 +89,9 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | 제목 | 작성소스 | 설명 | 비고 |
 |---|---|---|---|
 | mecab_quest | [mecab_quest](./codes/NLP/mecab_quest.ipynb) | 불용어 처리 | |
+
+### 감성분석
+| 제목 | 작성소스 | 설명 | 비고 |
+|---|---|---|---|
+| sentiment_analyze_dictionary | [sentiment_analyze_dictionary](./codes/NLP/sentiment_analyze_dictionary.ipynb) | 감성 사전에 의한 감성 분석 | |
+| sentiment_analyze_mechinelearing | [sentiment_analyze_mechinelearing](./codes/NLP/sentiment_analyze_mechinelearing.ipynb) | 머신러닝에 의한 감성 분석 | |
