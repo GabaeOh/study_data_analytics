@@ -49,8 +49,8 @@ from dataset : https://blog.naver.com/data_station/222493245799
 </details>
 
 ## 셀레니움(Sellenium)
-| 제목 | 작성소스 | 설명 | 비고 |
-|---|---|---|---|
+| 제목 | 작성소스 | 설명 |
+|---|---|---|
 | 기본 정보 | [begginers](./codes/gatheringdatas/seleriums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
 | find| [find](./codes/gatheringdatas/seleriums/emartmalls_find.ipynb) | find, bundle lish  with for문 | find_elements_by_css_selector|
 | Login| [Login](./codes/gatheringdatas/seleriums/github_events_except.ipynb) | 로그인  | |
@@ -63,21 +63,21 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 
 ### 셀레니움(Sellenium) QUEST 
-| 제목 | 작성소스 | 설명 | 비고 |
-|---|---|---|---|
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
 | books_quest | [books_quest](./codes/gatheringdatas/seleriums/books_quest.ipynb) | 도서목록 제목만 스크래핑, csv로 저장  | |
 | login_quest | [login_quest](./codes/gatheringdatas/seleriums/naver_login_quest.ipynb) | naver.com login, login 후 메일로 이동| |
 | 스크롤랑 | [koreanz_xyz_quest](./codes/gatheringdatas/seleriums/koreanz_xyz_quest.ipynb) | 특정 페이지 1page ~ 10page까지 정보 수집| |
 
 ### 정규표현식 (Regex) 
-| 제목 | 작성소스 | 설명 | 비고 |
-|---|---|---|---|
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
 | Regex | [Regex](./codes/pandass/beginners.ipynb) | 정규표현식 예시 | |
 
 
 ### 자연어 처리
-| 제목 | 작성소스 | 설명 | 비고 |
-|---|---|---|---|
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
 | wordcloud | [wordcloud](./codes/NLP/wordcloud_simple.ipynb) | 기본 자연어 처리 | | 
 | wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_simple_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
 | wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_simple_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
@@ -86,12 +86,22 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 
 ### 자연어 처리 QUEST 
-| 제목 | 작성소스 | 설명 | 비고 |
-|---|---|---|---|
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
 | mecab_quest | [mecab_quest](./codes/NLP/mecab_quest.ipynb) | 불용어 처리 | |
+| navermovierating | [navermovierating](./codes/NLP/navermovierating_mechinelearning_quest.ipynb) |  머신러닝 이용 감성 분석, 타 사이트 댓글 이용 성능 확인| 
 
 ### 감성분석
-| 제목 | 작성소스 | 설명 | 비고 |
-|---|---|---|---|
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
 | sentiment_analyze_dictionary | [sentiment_analyze_dictionary](./codes/NLP/sentiment_analyze_dictionary.ipynb) | 감성 사전에 의한 감성 분석 | |
 | sentiment_analyze_mechinelearing | [sentiment_analyze_mechinelearing](./codes/NLP/sentiment_analyze_mechinelearing.ipynb) | 머신러닝에 의한 감성 분석 | |
+
+## MongoDB
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
+| commend | [commend](./codes/gatheringdatas/mongodb/commend.txt) | mongoDB의 명령어 정리 | |
+| find| [findwithpandas](./codes/gatheringdatas/mongodb/findwithpandas.ipynb) | find with pandas | |
+| insertMany |[insertManywithpandas](./codes/gatheringdatas/mongodb/insertManywithpandas.ipynb) | insertManywithpandas | |
+| updates | [updates](./codes/gatheringdatas/mongodb/updates.py) | python으로 mongoDB update  | |
+| updatewithpandas | [updatewithpandas](./codes/gatheringdatas/mongodb/updatewithpandas.ipynb) | update with pandas  | |

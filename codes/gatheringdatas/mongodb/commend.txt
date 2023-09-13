@@ -1,0 +1,25 @@
+[mongoDB의 명령어]
+
+
+> show databases; 
+admin        40.00 KiB
+config      108.00 KiB
+db_NHIS      60.00 KiB
+local        72.00 KiB
+study_test  236.00 KiB
+
+> use study_data_analytics // 사용할 DB 선택 
+switched to db study_data_analytics
+
+>show collections; //해당 db안을 보고 싶을때
+NSC2_BND
+
+>db.NSC2_BND.find({}) //해당 파일을 보고 싶을때, 다 보여지지는 않음
+
+> db.mycollection.insertMany(documents = [
+    {"name": "Alice", "age": 25, "city": "Seoul"},
+    {"name": "Bob", "age": 30, "city": "Busan"},
+    {"name": "Charlie", "age": 35, "city": "Incheon"}
+   ])  // insert 명령어 
+   
+>db.mycollection.updateOne({name:"Alice"},{$set:{age:26}}); //update 명령어 (name 컬럼에Alice의 나이를 26살로 변경하고자 함 )
