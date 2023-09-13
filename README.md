@@ -48,7 +48,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 </details>
 
-## 셀레니움(Sellenium)
+## 📊 셀레니움(Sellenium)
 | 제목 | 작성소스 | 설명 |
 |---|---|---|
 | 기본 정보 | [begginers](./codes/gatheringdatas/seleriums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
@@ -69,13 +69,13 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | login_quest | [login_quest](./codes/gatheringdatas/seleriums/naver_login_quest.ipynb) | naver.com login, login 후 메일로 이동| |
 | 스크롤랑 | [koreanz_xyz_quest](./codes/gatheringdatas/seleriums/koreanz_xyz_quest.ipynb) | 특정 페이지 1page ~ 10page까지 정보 수집| |
 
-### 정규표현식 (Regex) 
+## 📊 정규표현식 (Regex) 
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | Regex | [Regex](./codes/pandass/beginners.ipynb) | 정규표현식 예시 | |
 
 
-### 자연어 처리
+## 📊 자연어 처리
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | wordcloud | [wordcloud](./codes/NLP/wordcloud_simple.ipynb) | 기본 자연어 처리 | | 
@@ -89,15 +89,22 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | mecab_quest | [mecab_quest](./codes/NLP/mecab_quest.ipynb) | 불용어 처리 | |
-| navermovierating | [navermovierating](./codes/NLP/navermovierating_mechinelearning_quest.ipynb) |  머신러닝 이용 감성 분석, 타 사이트 댓글 이용 성능 확인| 
 
-### 감성분석
+
+## 📊 감성분석
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
-| sentiment_analyze_dictionary | [sentiment_analyze_dictionary](./codes/NLP/sentiment_analyze_dictionary.ipynb) | 감성 사전에 의한 감성 분석 | |
-| sentiment_analyze_mechinelearing | [sentiment_analyze_mechinelearing](./codes/NLP/sentiment_analyze_mechinelearing.ipynb) | 머신러닝에 의한 감성 분석 | |
+| sentiment_analyze_dictionary | [sentiment_analyze_dictionary](./codes/NLP/sentiment_analyze_dictionary.ipynb) | 감성 사전에 의한 감성 분석 | 
+| sentiment_analyze_mechinelearing | [sentiment_analyze_mechinelearing](./codes/NLP/sentiment_analyze_mechinelearing.ipynb) | 머신러닝에 의한 감성 분석 | 
+| LDA_gensim | [LDA_gensim](./codes/NLP/LDA_gensim.ipynb) | gensim 이용하여 LDA | 
+| LDA_sklearn | [LDA_sklearn](./codes/NLP/LDA_sklearn.ipynb) | sklearn 이용하여 LDA | 
 
-## MongoDB
+### 감성분석 QUEST 
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
+| navermovierating | [navermovierating](./codes/NLP/navermovierating_mechinelearning_quest.ipynb) |  머신러닝 이용 감성 분석, 타 사이트 댓글 이용 성능 확인| 
+
+## 📊 MongoDB
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | commend | [commend](./codes/gatheringdatas/mongodb/commend.txt) | mongoDB의 명령어 정리 | |

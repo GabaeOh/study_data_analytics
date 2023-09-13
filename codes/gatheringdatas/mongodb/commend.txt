@@ -1,6 +1,5 @@
 [mongoDB의 명령어]
 
-
 > show databases; 
 admin        40.00 KiB
 config      108.00 KiB
@@ -23,3 +22,53 @@ NSC2_BND
    ])  // insert 명령어 
    
 >db.mycollection.updateOne({name:"Alice"},{$set:{age:26}}); //update 명령어 (name 컬럼에Alice의 나이를 26살로 변경하고자 함 )
+
+
+ * READ 
+{ : }
+key : field, 약속어(condition)
+value ; cell 값, list, hashmap
+
+예시)  
+ex) {id : 842302 } --> field와 cell 값 
+     {id : {$eq :842302} }
+    {diagnosis : 'M' } = {id : {$eq :842302}}
+    
+- 둘다 만족하는 조건 ({id:842302} & {diagnosis : 'M'})
+{$and : [{diagnosis:'M'},{id:842302}] }
+
+- in을 사용하여 M,B 추출 
+{ $and :  [{diagnosis : { $in : ['M','B']}}] }
+
+
+기본적인 틀 
+{$and  : [{ : }]}
+
+19보다 작은거 (포함은 lte)
+{radius_mean : { $lt: 19}}
+19보다 큰거 
+{radius_mean : { $gt: 19}}
+
+- 'diagnosis' 'M' 아니면서  'symmetry_se'가 0.01 이상
+{$and :[{diagnosis:{$ne:'M'}},{symmetry_se:{$gte:0.01}}]}
+- 'concavity_mean' 0.1 이하,  'concave points_mean' 0.06 이하,'symmetry_mean' 0.15 이상,
+ {$and:[{concavity_mean:{$lte:0.1}},{concave points_mean:{$lte:0.06}}, {symmetry_mean:{$gte:0.15}}]}
+ 
+ 
+{$and : [{ : }]}
+
+Projet 에서 컬럼을 view할때 보일지 여부를알수 있음 
+0 = 안보임
+1 = 보임
+
+{_id:0, id:0, diagnosis:1}
+{_id:0, diagnosis:1}
+
+Merge ------------------------------------------------------------------
+$project: 내가 보고 싶은 컬렉션만 특정하게 선택 (0: 안보임, 1:보임)
+$out: 맨마지막에 결과값으로 보여줌, 맨마지막에 기술 
+$lookup : 조인의 다른 명령어 /left outer join -> key가 되는 값(테이블)이 left , fk가 연결된 테이블이 오른쪽, (데이터가 적은 쪽이 왼쪽으로 넣으면 속도가 빠름) 
+	-  from : 조인될 오른쪽 테이블 
+	- localField, foreignField : 조인되면서 연결되는 컬럼 
+	- as : 가상의 컬렉션을 담는변수 
+$unwind: 리스트만큼 풀어헤쳐서 나열되겠끔 
