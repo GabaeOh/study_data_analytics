@@ -48,34 +48,31 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 </details>
 
-## 📊 셀레니움(Sellenium)
+# 📈 Data analytics
+- 데이터 분석을 위한 기본 개념 익히기 위한 공간
+
+
+## 💻 셀레니움(Sellenium)
 | 제목 | 작성소스 | 설명 |
 |---|---|---|
 | 기본 정보 | [begginers](./codes/gatheringdatas/seleriums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
 | find| [find](./codes/gatheringdatas/seleriums/emartmalls_find.ipynb) | find, bundle lish  with for문 | find_elements_by_css_selector|
-| Login| [Login](./codes/gatheringdatas/seleriums/github_events_except.ipynb) | 로그인  | |
-| pagination| [pagination](./codes/gatheringdatas/seleriums/emartmalls_find_pagination.ipynb) | pagination  | |
+| Login| [Login](./codes/gatheringdatas/seleriums/github_events_except.ipynb) | 로그인 기능 구현  | |
+| pagination| [pagination](./codes/gatheringdatas/seleriums/emartmalls_find_pagination.ipynb) | pagination 구현  | |
 | 앱 리뷰(single) | [googlestore_healthcare](./codes/gatheringdatas/seleriums/googlestore_healthcare_single.ipynb) | single  | |
 | 앱 리뷰(loops) | [loops](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops.ipynb) | loops  | |
 | 앱 리뷰 스크롤링| [loops_complete](./codes/gatheringdatas/seleriums/googlestore_healthcare_loops_complete.ipynb) | loops with for 문 | 각 제품(앱)에 들어가서 리뷰를 스크롤링 |
-| pagedown| [pagedown](./codes/gatheringdatas/seleriums/begginers_pagedown.ipynb) | 마우스 스크롤 기능 구현 |  |
+| pagedown| [pagedown](./codes/gatheringdatas/seleriums/begginers_pagedown.ipynb) | 마우스 스크롤 pagedown 기능 구현 |  |
 | 스크룰링| [pagedown_스크룰링](./codes/gatheringdatas/seleriums/begginers_ready.ipynb) | 마우스 스크롤 기능 구현 | while문을 이용 |
 
 
-### 셀레니움(Sellenium) QUEST 
-| 제목 | 작성소스 | 설명 | 
-|---|---|---|
-| books_quest | [books_quest](./codes/gatheringdatas/seleriums/books_quest.ipynb) | 도서목록 제목만 스크래핑, csv로 저장  | |
-| login_quest | [login_quest](./codes/gatheringdatas/seleriums/naver_login_quest.ipynb) | naver.com login, login 후 메일로 이동| |
-| 스크롤랑 | [koreanz_xyz_quest](./codes/gatheringdatas/seleriums/koreanz_xyz_quest.ipynb) | 특정 페이지 1page ~ 10page까지 정보 수집| |
-
-## 📊 정규표현식 (Regex) 
+## 💻 정규표현식 (Regex) 
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | Regex | [Regex](./codes/pandass/beginners.ipynb) | 정규표현식 예시 | |
 
 
-## 📊 자연어 처리
+## 💻 자연어 처리
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | wordcloud | [wordcloud](./codes/NLP/wordcloud_simple.ipynb) | 기본 자연어 처리 | | 
@@ -86,13 +83,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | tokenizers | [tokenizers](./codes/NLP/tokenizers.ipynb) | 불용어 처리 | 
 | bestTopicnumber | [bestTopicnumber](./codes/NLP/LDA_gensim_bestTopicnumber.ipynb) | 최적의 토픽 단어 수 | 
 
-### 자연어 처리 QUEST 
-| 제목 | 작성소스 | 설명 | 
-|---|---|---|
-| mecab_quest | [mecab_quest](./codes/NLP/mecab_quest.ipynb) | 불용어 처리 | |
-
-
-## 📊 감성분석
+## 💻 감성분석
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | sentiment_analyze_dictionary | [sentiment_analyze_dictionary](./codes/NLP/sentiment_analyze_dictionary.ipynb) | 감성 사전에 의한 감성 분석 | 
@@ -100,12 +91,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | LDA_gensim | [LDA_gensim](./codes/NLP/LDA_gensim.ipynb) | gensim 이용하여 LDA | 
 | LDA_sklearn | [LDA_sklearn](./codes/NLP/LDA_sklearn.ipynb) | sklearn 이용하여 LDA | 
 
-### 감성분석 QUEST 
-| 제목 | 작성소스 | 설명 | 
-|---|---|---|
-| navermovierating | [navermovierating](./codes/NLP/navermovierating_mechinelearning_quest.ipynb) |  머신러닝 이용 감성 분석, 타 사이트 댓글 이용 성능 확인| 
-
-## 📊 MongoDB
+## 💻 MongoDB
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | commend | [commend](./codes/gatheringdatas/mongodb/commend.txt) | mongoDB의 명령어 정리 | |
@@ -113,3 +99,28 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | insertMany |[insertManywithpandas](./codes/gatheringdatas/mongodb/insertManywithpandas.ipynb) | insertManywithpandas | |
 | updates | [updates](./codes/gatheringdatas/mongodb/updates.py) | python으로 mongoDB update  | |
 | updatewithpandas | [updatewithpandas](./codes/gatheringdatas/mongodb/updatewithpandas.ipynb) | update with pandas  | |
+
+
+## 📋 QUEST 
+<details >
+<summary> QUEST 진행 사항</summary>
+
+
+### 셀레니움(Sellenium) QUEST 
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
+| books_quest | [books_quest](./codes/gatheringdatas/seleriums/books_quest.ipynb) | 도서목록 제목만 스크래핑, csv로 저장  | |
+| login_quest | [login_quest](./codes/gatheringdatas/seleriums/naver_login_quest.ipynb) | naver.com login, login 후 메일로 이동| |
+| 스크롤랑 | [koreanz_xyz_quest](./codes/gatheringdatas/seleriums/koreanz_xyz_quest.ipynb) | 특정 페이지 1page ~ 10page까지 정보 수집| |
+
+### 자연어 처리 QUEST 
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
+| mecab_quest | [mecab_quest](./codes/NLP/mecab_quest.ipynb) | 불용어 처리 | |
+
+### 감성분석 QUEST 
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
+| navermovierating | [navermovierating](./codes/NLP/navermovierating_mechinelearning_quest.ipynb) |  머신러닝 이용 감성 분석, 타 사이트 댓글 이용 성능 확인| 
+
+</details>
