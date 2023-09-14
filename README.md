@@ -83,7 +83,8 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | wordcloud_regexp | [wordcloud_regexp](./codes/NLP/wordcloud_simple_regexp.ipynb) |Regex을 이용하여 글자 전처리 | | 
 | 한글 형태소 분석기 | [morpheme_analyzer](./codes/NLP/morpheme_analyzer.ipynb) |한글 형태소 분석기 Okt | |
 | withmecab | [withmecab](./codes/NLP/wordcloudwithmecab.ipynb) | withmecab | |
-
+| tokenizers | [tokenizers](./codes/NLP/tokenizers.ipynb) | 불용어 처리 | 
+| bestTopicnumber | [bestTopicnumber](./codes/NLP/LDA_gensim_bestTopicnumber.ipynb) | 최적의 토픽 단어 수 | 
 
 ### 자연어 처리 QUEST 
 | 제목 | 작성소스 | 설명 | 
