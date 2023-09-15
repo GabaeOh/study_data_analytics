@@ -51,11 +51,29 @@ from dataset : https://blog.naver.com/data_station/222493245799
 # 📈 Data analytics
 - 데이터 분석을 위한 기본 개념 익히기 위한 공간
 
-## 💻 Pandas
+## 💻 시각화(visuallizations)
+- 데이터 시각화는 데이터 분석 결과를 시각적으로 명확하게 표현하고 의사소통 하는 것
 
-| 제목 | 작성소스 | 설명 |
-|---|---|---|
-| 기본 정보 | [begginers](./codes/gatheringdatas/seleriums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| 
+| 제목 | 작성소스 | 설명 |  비고|
+|---|---|---|---|
+| 기본 시각화 | [simples](./codes/visuallizations/simples.ipynb) | matplotlib.pyplot| 
+| scatterplot | [classfications_scatter](./codes/visuallizations/classfications_scatter.ipynb) | scatterplot의 기본 정보 | 
+| UsingCharts | [UsingCharts](./codes/visuallizations/UsingCharts_TypeOfContractChannel.ipynb) | 목표변수와 설명변수의 관계를 시각화 | 
+| Lank | [UsingCharts_lank](./codes/visuallizations/UsingCharts_TypeOfContractChannel_quests.ipynb) | 상위권 부분만 확인하기 | 
+
+
+## 💻 Pandas
+- 파이썬의 데이터 분석 라이브러리
+
+| 제목 | 작성소스 | 설명 |  비고|
+|---|---|---|---|
+| basic_1 | [basic_1](./codes/pandass/BreastCancerWisconsin.ipynb) | 데이터 기본정보 확인하기 |
+| basic_2 | [basic_2](./codes/pandass/TitanicFromDisater.ipynb) | 데이터 기본정보 확인하기 |
+| TimeSeries | [TimeSeries](./codes/pandass/DeliveryList_TimeSeries.ipynb) | 날짜형 데이터 다루기| 
+| RecurrenceOfSurgery | [RecurrenceOfSurgery](./codes/pandass/RecurrenceOfSurgery.ipynb) |주차별/요일별 입원/퇴원 추이 시각화| 시각화 종류 파악|
+| apply | [apply](./codes/pandass/RecurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| apply() 사용|
+| preprocess | [preprocess](./codes/pandass/preprocess.ipynb) |전처리를 통해 결측치, 이상치 제거|
+
 
 ## 💻 셀레니움(Sellenium)
 - 웹 브라우저를 이용하는 자동화 프로그램인 'Selenium'을 이용하여 크롤링 하기
@@ -80,6 +98,8 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | Regex | [Regex](./codes/pandass/beginners.ipynb) | 정규표현식 예시 | |
+| Regex_pandass | [Regex_pandass](./codes/pandass/begginners.py) | 정규표현식을 pandas에서 사용 방법 | |
+| Regex_in_pandass | [Regex_in_pandass](./codes/pandass/TitanicFromDisaster_regexp_quest.py) | Regex in pandass | |
 
 
 ## 💻 자연어 처리(NLP)
@@ -112,10 +132,19 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | commend | [commend](./codes/gatheringdatas/mongodb/commend.txt) | mongoDB의 명령어 정리 | |
+| connect_mongoDB| [connect_mongoDB](./codes/gatheringdatas/mongodb/NSC2_D20.ipynb) | mongoDB 연결 | |
 | find| [findwithpandas](./codes/gatheringdatas/mongodb/findwithpandas.ipynb) | find with pandas | |
 | insertMany |[insertManywithpandas](./codes/gatheringdatas/mongodb/insertManywithpandas.ipynb) | insertManywithpandas | |
 | updates | [updates](./codes/gatheringdatas/mongodb/updates.py) | python으로 mongoDB update  | |
 | updatewithpandas | [updatewithpandas](./codes/gatheringdatas/mongodb/updatewithpandas.ipynb) | update with pandas  | |
+
+## 💻 MySQL
+- 오픈소스 관계형 데이터베이스 관리 시스템(RDBMS)
+  
+| 제목 | 작성소스 | 설명 | 
+|---|---|---|
+| connect_mysql | [connect_mysql](./codes/gatheringdatas/mysql/selectswithpandas.py) | pandas를 이용해서 mysql연결| |
+
 
 
 ## 📋 QUEST 
