@@ -125,6 +125,10 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | withmecab | [withmecab](./codes/NLP/wordcloudwithmecab.ipynb) | withmecab | |
 | tokenizers | [tokenizers](./codes/NLP/tokenizers.ipynb) | 불용어 처리 | 
 | bestTopicnumber | [bestTopicnumber](./codes/NLP/LDA_gensim_bestTopicnumber.ipynb) | 최적의 토픽 단어 수 | 
+| healthapp_PreProcess | [healthapp_PreProcess](./codes/NLP/healthapp_review_PreProcess.ipynb) | 전처리|
+| healthapp_LDA | [healthapp_LDA](./codes/NLP/healthapp_review_LDA.ipynb) | LDA |
+| duplicates_file | [duplicates_file](./codes/NLP/duplicates_file.ipynb) | 중복 처리 |
+| drop_duplicates | [drop_duplicates](./codes/NLP/drop_duplicates.ipynb) | 중복 처리 |
 
 ## 💻 감성분석
 - 감성 분석(Sentiment Analysis)이란 텍스트에 들어있는 의견이나 감성, 평가, 태도 등의 주관적인 정보를 컴퓨터를 통해 분석하는 과정
