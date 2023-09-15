@@ -51,7 +51,7 @@ from dataset : https://blog.naver.com/data_station/222493245799
 # 📈 Data analytics
 - 데이터 분석을 위한 기본 개념 익히기 위한 공간
 
-# 사용기술
+## ☑ 사용기술
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/> <img
 src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/> <img
 src="https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white"/> <img
