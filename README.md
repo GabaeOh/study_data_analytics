@@ -51,8 +51,15 @@ from dataset : https://blog.naver.com/data_station/222493245799
 # 📈 Data analytics
 - 데이터 분석을 위한 기본 개념 익히기 위한 공간
 
+## 💻 Pandas
+
+| 제목 | 작성소스 | 설명 |
+|---|---|---|
+| 기본 정보 | [begginers](./codes/gatheringdatas/seleriums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| 
 
 ## 💻 셀레니움(Sellenium)
+- 웹 브라우저를 이용하는 자동화 프로그램인 'Selenium'을 이용하여 크롤링 하기
+  
 | 제목 | 작성소스 | 설명 |
 |---|---|---|
 | 기본 정보 | [begginers](./codes/gatheringdatas/seleriums/begginers.ipynb) | 웹페이지 창 닫고 열기, screenshot| |
@@ -67,12 +74,18 @@ from dataset : https://blog.naver.com/data_station/222493245799
 
 
 ## 💻 정규표현식 (Regex) 
+- 정규 표현식(regular expression)은 문자열에서 특정한 규칙을 가지는 문자열의 집합을 찾아내기 위한 검색 패턴
+- ref : https://regexr.com/
+  
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | Regex | [Regex](./codes/pandass/beginners.ipynb) | 정규표현식 예시 | |
 
 
-## 💻 자연어 처리
+## 💻 자연어 처리(NLP)
+- NLP(Natural Language Processing, 자연어 처리)는 인공지능의 한 분야로서 머신러닝을 사용하여 텍스트와 데이터를 처리하고 해석
+- 자연어의 의미를 분석하여 컴퓨터가 처리할 수 있도록 하는 일
+  
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | wordcloud | [wordcloud](./codes/NLP/wordcloud_simple.ipynb) | 기본 자연어 처리 | | 
@@ -84,6 +97,8 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | bestTopicnumber | [bestTopicnumber](./codes/NLP/LDA_gensim_bestTopicnumber.ipynb) | 최적의 토픽 단어 수 | 
 
 ## 💻 감성분석
+- 감성 분석(Sentiment Analysis)이란 텍스트에 들어있는 의견이나 감성, 평가, 태도 등의 주관적인 정보를 컴퓨터를 통해 분석하는 과정
+  
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | sentiment_analyze_dictionary | [sentiment_analyze_dictionary](./codes/NLP/sentiment_analyze_dictionary.ipynb) | 감성 사전에 의한 감성 분석 | 
@@ -92,6 +107,8 @@ from dataset : https://blog.naver.com/data_station/222493245799
 | LDA_sklearn | [LDA_sklearn](./codes/NLP/LDA_sklearn.ipynb) | sklearn 이용하여 LDA | 
 
 ## 💻 MongoDB
+- 오픈소스 비관계형 데이터베이스 관리 시스템(DMBS)
+  
 | 제목 | 작성소스 | 설명 | 
 |---|---|---|
 | commend | [commend](./codes/gatheringdatas/mongodb/commend.txt) | mongoDB의 명령어 정리 | |
