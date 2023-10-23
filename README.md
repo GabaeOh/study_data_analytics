@@ -83,6 +83,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | RecurrenceOfSurgery | [RecurrenceOfSurgery](./codes/pandass/RecurrenceOfSurgery.ipynb) |주차별/요일별 입원/퇴원 추이 시각화| 시각화 종류 파악|
 | apply | [apply](./codes/pandass/RecurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| apply() 사용|
 | preprocess | [preprocess](./codes/pandass/preprocess.ipynb) |전처리를 통해 결측치, 이상치 제거|
+| merge | [merge](./codes/pandass/merge.ipynb) | 데이터를 조인하여 병합하는 법|
 
 
 ## 💻 셀레니움(Sellenium)
