@@ -84,6 +84,7 @@ src="https://img.shields.io/badge/Google Cloud-4285F4?style=for-the-badge&logo=G
 | apply | [apply](./codes/pandass/RecurrenceOfSurgery_apply_quest.ipynb) |체중,신장의 데이터를 활용하여 BMI 시각화| apply() 사용|
 | preprocess | [preprocess](./codes/pandass/preprocess.ipynb) |전처리를 통해 결측치, 이상치 제거|
 | merge | [merge](./codes/pandass/merge.ipynb) | 데이터를 조인하여 병합하는 법|
+| read_excel | [read_excel](./codes/pandass/read_excel.ipynb) | excel를 로드하는 법과 sheet를 불러와서 병합|
 
 
 ## 💻 셀레니움(Sellenium)
